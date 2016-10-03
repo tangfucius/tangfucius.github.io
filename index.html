@@ -14,7 +14,7 @@ layout: default
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
         </h2>
-        <p>{{ post.url }}</p>
+        <p>URL: {{ post.url }}</p>
       </li>
     {% endfor %}
   </ul>
@@ -31,6 +31,7 @@ layout: default
   <div class="date" style="margin-top:-15px;">{{ post.date | date: '%B %d, %Y' }}</div>
   <div class="entry">
     {{ post.excerpt }}
+    <p>URL: {{ post.url }}</p>
   </div>
 
   <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
