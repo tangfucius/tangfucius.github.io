@@ -27,5 +27,5 @@ github_username:  jekyll
 disqus: tangfucius
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 theme: minima
