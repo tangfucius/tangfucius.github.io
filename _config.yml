@@ -21,6 +21,7 @@ url: "tangfucius.github.io" # the base hostname & protocol for your site
 paginate: 10
 github_username:  tangfucius
 disqus: tangfucius
+avatar: /images/github.png
 
 # Build settings
 markdown: kramdown
