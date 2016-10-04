@@ -6,3 +6,5 @@ categories: jekyll update
 notebook: datashader
 excerpt: Look at gaussian mixture density plots.
 ---
+{{ page.notebook }}
+{{ content }}

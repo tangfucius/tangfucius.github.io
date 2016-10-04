@@ -1,19 +1,5 @@
 ---
 layout: default
 ---
-<style>
-  .container {
-    max-width: 90vw;
-  }
-</style>
-  <h1>{{ page.title }}</h1>
-
-  <div class="entry">
-    {% include notebooks/{{ page.notebook }}.html %}
-  </div>
-  {{ content }}
-  <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
-  </div>
-
-  {% include disqus.html %}
+{% include notebooks/{{ page.notebook }}.html %}
+{% include disqus.html %}
