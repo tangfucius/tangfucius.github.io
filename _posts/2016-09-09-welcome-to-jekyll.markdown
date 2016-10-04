@@ -1,6 +1,6 @@
 ---
-layout: ipython
-title:  "Welcome to Jekyll!"
+layout: default
+title:  "Gaussian datashader"
 date:   2016-09-09 20:45:14 +0800
 categories: jekyll update
 notebook: datashader
