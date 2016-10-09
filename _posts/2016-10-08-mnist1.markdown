@@ -1,7 +1,7 @@
 ---
 layout: ipython
 title:  "Matrix-based backprogation over minibatch on MNIST, Part 1"
-date:   2016-09-09 20:45:14 +0800
+date:   2016-10-08 13:45:14 +0800
 notebook: mnist1
 excerpt: We implement a fully matrix-based multilayer perceptron network to test on MNIST, with some caveats.
 ---

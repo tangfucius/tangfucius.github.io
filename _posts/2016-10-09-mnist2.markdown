@@ -1,0 +1,7 @@
+---
+layout: ipython
+title:  "Matrix-based backprogation over minibatch on MNIST, Part 2"
+date:   2016-10-09 14:45:14 +0800
+notebook: mnist2
+excerpt: We adopt a more modular approach in implementing our neural network.
+---
